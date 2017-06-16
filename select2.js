@@ -3672,7 +3672,7 @@ the specific language governing permissions and limitations under the Apache Lic
 
             // Only devices which support touch events should be special cased
             if (!supportsTouchEvents) {
-                return true;
+                return false;
             }
 
             // Never focus the input if search is disabled
